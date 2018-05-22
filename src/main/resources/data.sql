@@ -1,0 +1,1 @@
+INSERT INTO food (name, price, spicyLevel, description) VALUES ('Kimchi Soup', 10000, 3, 'Soup made of Kimchi and Porkbelly');

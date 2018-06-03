@@ -1,11 +1,11 @@
-package io.pivotal.cloudnative.seoul.producer.config;
+package io.pivotal.cloudnative.seoul.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
 @Configuration
-public class ActuatorSecurityConfig extends WebSecurityConfigurerAdapter {
+public class DisableSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     public void configure(WebSecurity web) throws Exception {
         web.ignoring().antMatchers("/**");
